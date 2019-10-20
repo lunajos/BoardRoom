@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    margin-top: 0px;
+    background-color: #4062BB;
+    color: #fff;
+    padding-top:25px;
+    padding-bottom:25px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 0px 0px lightgrey;
+}
+
+#header li{
+    font-size: 1.1em;
+}
+
+#header li:last-child{
+    float: right
+}
+
+
+#header a:hover{
+    color: lightgrey;
+}
+
+#header a:active{
+    color: #F45B69;
+}
+
+#header li, #footer li{
+    list-style-type: none;
+    display: inline-block;
+
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#header li:first-child{
+    padding-left: 0px;
+}
+
+#header a, #footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer a{
+    color: darkgrey;
+}
+
+#footer{
+    text-align: center;
+    padding-top: 20px;
+    background-color: #52489C;
+    margin-top: 0px;
+    height: 100px;
+    color: darkgrey;
+}
+
+.title{
+    margin-top: 15px;
+    text-align: center;
+    min-height: 400px;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-image: url("images/business-darkened.png");
+}
+
+.title img{
+    height:300px;
+    margin: 0px;
+    padding-top: 50px;
+}
+.title h1{
+    margin-top: 0px;
+    padding-top: 150px;
+    font-size: 3em;
+    color: #F45B69;
+}
+
+.title h3{
+    color: grey;
+}
+
+.inner-body{
+    background-color: #59C3C3;
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 150px;
+}
+
+.inner-body div p{
+    line-height: 2;
+}
+
+.testimoniols{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 300px;
+    color: #52489C;
+}
+
+.tests{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tests img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    height: 100px;
+}
+
+.body-content{
+    margin: 0px;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.inner-body div i{
+    font-size: 2em;
+}
